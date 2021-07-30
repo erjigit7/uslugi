@@ -1,0 +1,673 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+}
+
+#hero {
+    background: url("../img_y/fonD.svg") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+.hero__left {
+    padding-top: 180px;
+}
+
+.hero__left h1 {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 62px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.hero__left h3 {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero__left__btn {
+    margin-top: 76px;
+}
+
+.hero__left__btn a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    padding: 16px 37px 16px 37px;
+    box-shadow: 6px 2px 16px #2d475c, -6px -2px 16px #000000;
+    border-radius: 100px
+}
+
+.hero__left__btn a:hover {
+    background: linear-gradient(
+            91deg, #213443 -19.89%, #171D29 53.36%);
+    box-shadow: inset 6px 2px 16px #000000, inset -6px -2px 16px #2d475c;
+    border-radius: 100px;
+}
+
+.hero__left h2 {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 48px 0 0 0;
+}
+
+.hero__left__icons {
+    margin-top: 20px;
+}
+
+.hero__left__icons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin: 0 10px;
+    width: 33px;
+    height: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.hero__left__icons div :hover {
+    transform: scale(1.3);
+
+}
+
+.hero__left__icons div i {
+    color: #FFFFFF;
+}
+
+.hero__left__icons div i:hover {
+    color: #F67C0B;
+}
+
+.hero__right__circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 506px;
+    height: 506px;
+    box-shadow: 6px 2px 16px #2d475c, -6px -2px 16px #000000;
+    border-radius: 50%;
+    margin-top: 123px;
+}
+
+.hero__right__circle img {
+    width: 416px;
+    height: 416px;
+    position: absolute;
+}
+
+#about {
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #203343 0%, #171C28 59%);
+}
+
+.about__row {
+    padding-bottom: 61px;
+}
+
+.about__title {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.about__left p {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.widget {
+    margin-top: 20px;
+}
+
+.first__widget {
+
+    background: #E9E9E9;
+    box-shadow: inset 0 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 12px;
+    height: 15px;
+    width: 100%;
+}
+
+.widget span {
+    color: #9F9F9F;
+}
+
+.widget__inner {
+    position: relative;
+    height: 15px;
+    width: 88%;
+    background: rgb(231, 193, 0);
+    background: linear-gradient(
+            90deg, rgba(231, 193, 0, 1) 0%, rgba(229, 113, 6, 1) 35%, rgba(229, 80, 6, 1) 100%);
+    border-radius: 10px;
+    animation: cloud 2s alternate;
+}
+
+@keyframes cloud {
+    0% {
+        width: 0;
+        height: 15px;
+    }
+    100% {
+        width: 88%;
+        height: 15px;
+    }
+}
+
+.widget__inner p {
+    margin-left: 90%;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -5px;
+
+}
+
+.widget__inner2 {
+    position: relative;
+    height: 15px;
+    width: 81%;
+    background: rgb(231, 193, 0);
+    background: linear-gradient(
+            90deg, rgba(231, 193, 0, 1) 0%, rgba(229, 113, 6, 1) 35%, rgba(229, 80, 6, 1) 100%);
+    border-radius: 10px;
+    animation: cloud2 2s alternate;
+}
+
+@keyframes cloud2 {
+    0% {
+        width: 0;
+        height: 15px;
+    }
+    100% {
+        width: 81%;
+        height: 15px;
+    }
+}
+
+.widget__inner2 p {
+    margin-left: 90%;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -5px;
+
+}
+
+.widget__inner3 {
+    position: relative;
+    height: 15px;
+    width: 95%;
+    background: rgb(231, 193, 0);
+    background: linear-gradient(
+            90deg, rgba(231, 193, 0, 1) 0%, rgba(229, 113, 6, 1) 35%, rgba(229, 80, 6, 1) 100%);
+    border-radius: 10px;
+    animation: cloud3 2s alternate;
+}
+
+@keyframes cloud3 {
+    0% {
+        width: 0;
+        height: 15px;
+    }
+    100% {
+        width: 95%;
+        height: 15px;
+    }
+}
+
+.widget__inner3 p {
+    margin-left: 90%;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -5px;
+
+}
+
+.widget__inner4 {
+    position: relative;
+    height: 15px;
+    width: 74%;
+    background: rgb(231, 193, 0);
+    background: linear-gradient(
+            90deg, rgba(231, 193, 0, 1) 0%, rgba(229, 113, 6, 1) 35%, rgba(229, 80, 6, 1) 100%);
+    border-radius: 10px;
+    animation: cloud4 2s alternate;
+}
+
+@keyframes cloud4 {
+    0% {
+        width: 0;
+        height: 15px;
+    }
+    100% {
+        width: 74%;
+        height: 15px;
+    }
+}
+
+.widget__inner4 p {
+    margin-left: 90%;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -5px;
+}
+
+
+#offers {
+
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #213545 0%, #171C28 59%);
+}
+
+.offers__row {
+    padding-top: 122px;
+    padding-bottom: 61px;
+}
+
+.offers__title {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    padding-top: 61px;
+}
+
+.offers__left {
+
+
+}
+
+.offers__left__box {
+    width: 721px;
+    height: 417px;
+    background: linear-gradient(
+            90.11deg, #213443 -19.89%, #171D29 53.36%);
+    box-shadow: 6px 2px 16px #2d475c, -6px -2px 16px #000000;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #F67C0B;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 4px 4px 4px 4px;
+    padding: 20px 20px 20px 20px;
+}
+
+.offers__left__box h2 {
+    color: #F67C0B;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    z-index: 4;
+    margin-top: 30px;
+}
+
+.offers__left__box p {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+}
+
+.offers__left__btn {
+    margin-top: 76px;
+}
+
+.offers__left__btn a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    padding: 16px 37px 16px 37px;
+    box-shadow: 6px 2px 16px #2d475c, -6px -2px 16px #000000;
+    border-radius: 100px;
+}
+
+.offers__left__btn a:hover {
+    background: linear-gradient(
+            91deg, #213443 -19.89%, #171D29 53.36%);
+    box-shadow: inset 6px 2px 16px #000000, inset -6px -2px 16px #2d475c;
+    border-radius: 100px;
+}
+
+.offers__right {
+    display: flex;
+    flex-direction: column;
+    /*align-items: flex-end;*/
+}
+
+.offers__left__buy {
+    margin-top: 82px;
+    margin-left: 115px;
+}
+
+.offers__left__buy h3 {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.offers__left__buy p {
+    color: #F67C0B;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    padding-left: 30px;
+    margin-top: -13px;
+}
+
+.offers__right__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 232px;
+    height: 199px;
+    background: linear-gradient(
+            90.11deg, #213443 -19.89%, #171D29 53.36%);
+    box-shadow: 6px 2px 16px #2d475c, -6px -2px 16px #000000;
+    border-radius: 15px;
+    margin: 10px;
+
+}
+
+.offers__right__block:hover {
+    background: linear-gradient(
+            91deg, #213443 -19.89%, #171D29 53.36%);
+    box-shadow: inset 6px 2px 16px #000000, inset -6px -2px 16px #2d475c;
+    border-radius: 15px;
+}
+
+.offers__right__block h2 {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.offers__right__block p {
+    color: #C6C6C6;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#development {
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #213545 0%, #171C28 59%);
+}
+
+.development__box {
+    width: 100%;
+    background: linear-gradient(
+            90.11deg, #213443 -19.89%, #171D29 53.36%);
+    box-shadow: 6px 2px 16px #2d475c, -6px -2px 16px #000000;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #F67C0B;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 20px 20px 20px 20px;
+}
+
+.development__box h2 {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.development__box__text {
+    height: 75%;
+    background: linear-gradient(
+            91deg, #213443 -19.89%, #171D29 53.36%);
+    box-shadow: inset 6px 2px 16px #000000, inset -6px -2px 16px #2d475c;
+    border-radius: 15px;
+    margin-top: -84px;
+    margin-left: 158px
+
+}
+
+.development__box__text h3 {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 6px 6px 6px 6px;
+    padding: 12px 12px 12px 12px;
+}
+
+.development__box__text p {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    padding-left: 19px;
+    padding-bottom: 10px;
+}
+
+.development__box__text__desc p {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    padding-left: 144px;
+    padding-top: 28px
+}
+
+.development__box__text__btn {
+    margin-top: 43px;
+    margin-left: 143px;
+    margin-bottom: 35px;
+}
+
+.development__box__text__btn a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    padding: 16px 37px 16px 37px;
+    box-shadow: 6px 2px 16px #2d475c, -6px -2px 16px #000000;
+    border-radius: 100px;
+}
+
+.development__box__text__btn a:hover {
+    background: linear-gradient(
+            91deg, #213443 -19.89%, #171D29 53.36%);
+    box-shadow: inset 6px 2px 16px #000000, inset -6px -2px 16px #2d475c;
+    border-radius: 100px;
+}
+
+#about2 {
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #213545 0%, #171C28 59%);
+}
+
+.about2__title {
+    color: #F67C0B;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    padding-top: 122px;
+    padding-bottom: 122px;
+
+}
+
+.about__block2:hover {
+    background: linear-gradient(
+            91deg, #213443 -19.89%, #171D29 53.36%);
+    box-shadow: inset 6px 2px 16px #000000, inset -6px -2px 16px #2d475c;
+    border-radius: 15px;
+}
+
+.about__block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 215px;
+    margin: 0 8px;
+    background: linear-gradient(
+            90.11deg, #213443 -19.89%, #171D29 53.36%);
+    box-shadow: 6px 2px 16px #2d475c, -6px -2px 16px #000000;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.about__block2 img {
+    width: 100px;
+    height: 90px;
+}
+
+.about__block2 h1 {
+    display: flex;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: -22px;
+}
+
+.about__block2 p {
+    width: 286px;
+    height: 48px;
+    color: #C6C6C6;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 26px
+}
+
+/*ABOUT__TASK*/
+#about__task {
+    background-color: #171C28
+}
+
+#about__task__title {
+    background-color: #171C28
+}
+
+#about__task h1 {
+    color: #F67C0B;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    padding-top: 122px;
+    padding-bottom: 61px;
+}
+
+.about__task__img1 {
+    position: relative;
+    width: 100%;
+    background-color: #171C28;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41vh;
+    background-image: url("../img_y/tsimmerman.jpg");
+    margin: 10px;
+}
+
+.about__task__hover {
+    width: 100%;
+    height: 41vh;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(
+            180deg, rgba(32, 51, 67, 0) 0%, rgba(23, 28, 40, 0.98) 73%);
+    opacity: 0;
+    transition: all .6s ease-in-out;
+}
+
+.about__task__hover:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.about__task__img2 {
+    width: 100%;
+    background-color: #171C28;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41vh;
+    background-image: url("../img_y/pay2bee.jpg");
+    margin: 10px;
+
+}
+
+.about__task__hover2 {
+    width: 100%;
+    height: 41vh;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(
+            180deg, rgba(32, 51, 67, 0) 0%, rgba(23, 28, 40, 0.98) 73%);
+
+    opacity: 0;
+    transition: all .6s ease-in-out;
+}
+
+.about__task__hover2:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.about__task__img3 {
+    width: 100%;
+    background-color: #171C28;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41vh;
+    background-image: url("../img_y/as-farm.jpg");
+    margin: 10px;
+}
+
+.about__task__hover3 {
+    width: 100%;
+    height: 41vh;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(
+            180deg, rgba(32, 51, 67, 0) 0%, rgba(23, 28, 40, 0.98) 73%);
+    opacity: 0;
+    transition: all .6s ease-in-out;
+}
+
+.about__task__hover3:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
+/*ABOUT__TASK*/

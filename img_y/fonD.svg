@@ -1,0 +1,26 @@
+<svg width="1440" height="721" viewBox="0 0 1440 721" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1440" height="721" fill="url(#paint0_radial)"/>
+<rect x="314" y="160" width="22" height="40" fill="white"/>
+<rect x="580" y="50" width="7" height="98" fill="white"/>
+<rect x="780" y="577" width="12" height="57" fill="white"/>
+<rect x="1241" y="132" width="12" height="28" fill="white"/>
+<rect x="1265" y="148" width="12" height="28" fill="white"/>
+<rect x="1183" y="589" width="16" height="24" fill="#E57106"/>
+<rect x="1277" y="541" width="13" height="12" fill="white"/>
+<rect x="607" y="462" width="13" height="12" fill="white"/>
+<rect x="663" y="509" width="13" height="12" fill="white"/>
+<rect x="707" y="275" width="13" height="12" fill="#E57106"/>
+<rect x="1288" y="136" width="13" height="12" fill="#E57106"/>
+<rect x="372" y="157" width="13" height="12" fill="white"/>
+<rect x="1293" y="581" width="16" height="100" fill="white"/>
+<rect x="678" y="440" width="19" height="69" fill="white"/>
+<rect x="669" y="252" width="19" height="41" fill="white"/>
+<rect x="731" y="468" width="12" height="16" fill="white"/>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 360.5) rotate(90) scale(360.5 720)">
+<stop stop-color="#213545"/>
+<stop offset="1" stop-color="#171C28"/>
+<stop offset="1" stop-color="#171C28"/>
+</radialGradient>
+</defs>
+</svg>
